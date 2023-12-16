@@ -1,0 +1,69 @@
+@media(max-width : 1000px){
+    h1{
+        font-size: 40px;
+        font-weight: 200;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    course .img{
+        height: 200px;
+    }
+    #image1{
+        width: 45% !important;
+    }
+    #image1 img{
+        width: 100% !important;
+    }
+    #image2{
+        width: 45% !important;
+    }
+    #image2 img{
+        width: 100% !important;
+    }
+    
+    #image3{
+        width: 45% !important;
+    }
+    #image3 img{
+        width: 100% !important;
+    }
+    
+    
+}
+@media(max-width : 650px){
+    #image1{
+        width: 80% !important;
+    }
+    #image1 img{
+        width: 100% !important;
+    }
+    #image2{
+        width: 80% !important;
+    }
+    #image2 img{
+        width: 100% !important;
+    }
+    
+    #image3{
+        width: 80% !important;
+    }
+    #image3 img{
+        width: 100% !important;
+    }
+    h4{
+        font-size: 25px
+    }
+    h1{
+        font-size: 35px;
+    }
+}

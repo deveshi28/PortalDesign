@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 5s;
+}
+:root{
+    /* Background Color */
+    --bg-red: #d3282e;
+    --bg-white: #fff;
+    --bg-light-white: #f6f7f8;
+    --bg-yellow: #fdd800;
+    --bg-green: #009900;
+
+    /* Text Color */
+    --text-black: #1f1f1f;
+    --text-white: #fff;
+    --text-red: #d3282e;
+    --text-green: #009900;
+    --text-yellow: #fdd800;
+    /* Fonts */
+    --primary-font: 'Great Vibes', cursive;
+    --secondary-font: 'Poppins', sans-serif;
+}
+h1{
+    font-size:55px;
+    font-family: var(--primary-font);
+    letter-spacing:1px;
+    font-weight: 500;
+    color:#12587a;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgb(228, 224, 224);
+} 
+h2{
+    text-align: center;
+    font-size: 45px;
+    font-family: var(--primary-font);
+    letter-spacing: 1px;
+    font-weight: 75;
+    color: var(--text-black);
+    margin: 30px;
+    /* text-shadow: 2px 2px 3px rgb(59, 55, 55); */
+} 
+h3{
+    font-size:40px; 
+    letter-spacing:2px;
+    font-weight: 500;
+    color:var(--text-black);
+    margin-bottom:15px;
+    text-align: left;
+}
+h4{
+    font-size:35px; 
+    letter-spacing:2px;
+    font-weight: 500;
+    color:var(--text-black);
+    margin-bottom:15px;
+    /* text-shadow: 2px 2px 3px hotpink; */
+}
+h5{
+    font-size:25px; 
+    letter-spacing:1px;
+    color:var(--text-black);
+    margin-bottom:15px;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+    margin-top:5px;
+    margin-bottom:1rem;
+    font-size:25px;
+    font-weight: 300;
+    font-family: 'Comme', sans-serif;
+    line-height:normal;
+    color:var(--text-white);
+    text-align: justify;
+    text-shadow: 2px 2px 3px hotpink;
+}
+body{
+    margin: 0px;
+    background-color: var(--bg-light-white);
+    font-size: 30px;
+    font-weight: bold;
+    /* background-color: #12587a; */
+}
+.header .navbar-brand img{
+    max-width: 210px;
+    height:auto;
+    filter:invert(1);
+}
+.header .nav-item{
+    margin: 0 10px;
+}
+.header .nav-item.nav-link{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-white);
+    line-height: 1;
+    letter-spacing: 1px;
+}
+.image{
+    height: 700px;
+}
+.course .img{
+    height:300px;
+}
+.button{
+    background-color: #12587a;
+    color: white;
+    height: 45px;
+}
+
+.nav-item{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: var(--text-white);
+    font-size: large;
+    font-weight: 500;
+
+}
+.banner{
+    width: 100%;
+    
+}
+.box{
+    width: 30%;
+    height: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+a:hover{
+    background-color:yellow ;
+}
+b:hover{
+    background-color: blue;
+}
+c:hover{
+    background-color: rgba(255, 0, 0, 0.94);
+}
+.footerr{
+    background: #6a99ff;
+    padding-left: 80px;
+    padding-right: 80px;
+}
